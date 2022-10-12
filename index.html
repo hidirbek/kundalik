@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+  />
+  <title>Kundalik</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="site-header">
+        <div class="img-wrapper">
+          <a href="index.html"><img class="logo-img" src="img/site-logo.png" alt="logo" /></a>
+        </div>
+        <nav class="site-navbar">
+          <a  class="head-nav-links nav-links" href="tashkilot.html">Tashkilot</a>
+          <a target="_blank" class="head-nav-links nav-links" href="https://kundalik.com/features#/teachers"
+          >Imkoniyatlar</a
+          >
+          <a class="head-nav-links nav-links" href="hamkorlarga.html"
+          >Hamkorlarga</a
+          >
+          <a target="_blank" class="head-nav-links nav-links" href="https://help.kundalik.com/hc/ru/">Yordam</a>
+          <select class="site-language" name="" id="">
+            <option value="" selected>O'zb</option>
+            <option value="">Русский</option>
+            <option value="">English</option>
+          </select>
+          <div class="login-btn-wrapper">
+            <a target="_blank" href="https://login.kundalik.com/login" class="login-btn">Kirish</a>
+          </div>
+          <div>
+            <a target="_blank" class="connect-btn" href="https://login.kundalik.com/join/role">Tashkilotni ulash</a>
+          </div>
+          <div>
+            <a target="_blank" class="register-btn" href="https://kundalik.com/ad/promo/oo-uz">Ro'yhatdan o'tish</a>
+          </div>
+        </nav>
+        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- <h2 style="text-align:center">Slideshow Gallery</h2> -->
+
+    <div class="container">
+      <div class="mySlides">
+        <!-- <div class="numbertext">1 / 6</div> -->
+        <div class="first-img-wrapper">
+          <div >
+            <h3 class="teacher">O‘qituvchilarga</h3>
+            <p class="teacher-txt">Maktabdagi ish jarayonini avtomatlashtirish va chorakda 20 soat ish vaqtini tejash uchun zamonaviy ta’lim platformasidan foydalaning.</p>
+          </div>
+          <img class="first-img" src="img/teachers_preview.png" >
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numbertext">2 / 6</div> -->
+        <img src="img_5terre_wide.jpg" >
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numbertext">3 / 6</div> -->
+        <img src="img_mountains_wide.jpg" >
+      </div>
+
+      <div class="mySlides">
+        <!-- <div class="numbertext">4 / 6</div> -->
+        <img src="img_lights_wide.jpg">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <!-- <div class="caption-container">
+        <p id="caption"></p>
+      </div> -->
+
+      <div class="row" style="display: flex; justify-content: center;">
+        <div class="column">
+          <img class="demo cursor" src="img/teachers_preview.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/parents_preview.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/officials_preview.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/students_preview.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+  <footer class="footer-wrapper">
+    <div class="container">
+      <div class="site-footer">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-list_item">
+            <p class="footer-list-title">Tashkilot haqida</p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/about">Biz haqimizda</a></p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/news">Yangiliklar</a></p>
+            <p class="footer-nav-links"><a  class="footer-nav-links" href="https://kundalik.com/contacts">Aloqa uchun ma'lumotlar</a></p>
+            <div class="social-media-wrapper desktop-socialm">
+              <a href="https://www.facebook.com/KundalikUzbekistan"><i class="fa-brands fa-square-facebook icons"></i></a>
+              <a href="https://www.instagram.com/kundalikuzbekistan/"><i class="fa-brands fa-square-instagram icons"></i></a>
+              <a href="https://t.me/kundalik_com"><i class="fa-brands fa-telegram icons"></i></a>
+              <a href="https://www.youtube.com/channel/UCXEyWtrq2E7ZQ3D8tiOmCZg"><i class="fa-brands fa-youtube icons"></i></a>
+              <a href="https://mover.uz/channel/kundalikcom/"><i class="fa-solid fa-m icons"></i></a>
+            </div>
+          </li>
+          <li class="footer-nav-list_item">
+            <p class="footer-list-title">Imkoniyatlar</p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/features#/teachers">O‘qituvchilarga</a></p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/features#/parents">Ota-onalarga</a></p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/features#/students">O‘quvchilarga</a></p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/features#/governments">Davlat organlariga</a></p>
+          </li>
+          <li class="footer-nav-list_item">
+            <p class="footer-list-title">Hamkorlarga</p>
+            <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/forpartners">Reklama</a></p>
+          </li>
+          <li class="footer-nav-list_item">
+            <p class="footer-list-title">Qo'llab-quvvatlash</p>
+            <p class="footer-nav-links support-link"><a class="footer-nav-links support-link" href="https://help.kundalik.com/hc/ru">Qo‘llab-quvvatlash xizmati portal</a></p>
+            <a target="_blank" class="connect-btn" href="https://login.kundalik.com/join/role">Tashkilotni ulash</a>
+          </li>
+          <li class="media-socialm">
+            <div style="gap: 10px;" class="social-media-wrapper">
+              <a href="https://www.facebook.com/KundalikUzbekistan"><i class="fa-brands fa-square-facebook icons"></i></a>
+              <a href="https://www.instagram.com/kundalikuzbekistan/"><i class="fa-brands fa-square-instagram icons"></i></a>
+              <a href="https://t.me/kundalik_com"><i class="fa-brands fa-telegram icons"></i></a>
+              <a href="https://www.youtube.com/channel/UCXEyWtrq2E7ZQ3D8tiOmCZg"><i class="fa-brands fa-youtube icons"></i></a>
+              <a href="https://mover.uz/channel/kundalikcom/"><i class="fa-solid fa-m icons"></i></a>
+            </div>
+          </li>
+        </ul>
+        <div class="sub-footer">
+          <p class="footer-nav-links"><a class="footer-nav-links" href="https://kundalik.com/agreements/terms">Foydalanuvchining shartnomasi</a></p>
+          <p class="owner">© 2022 ООО «Kundalik»  Cloned by <i>Khidirbek</i></p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,350 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+body{
+  background-color: #f4f4f4;
+  line-height: 1.7;
+}
+a {
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+header {
+  background-color: #fff;
+  padding: 30px 0;
+  width: 100%;
+  box-shadow: 0px 1px 5px 1px grey;
+}
+
+.site-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 44px 0; */
+
+  padding: 0 5%;
+}
+
+.site-navbar{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.nav-links {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+/* .head-nav-links + .head-nav-links {
+  margin-left: 30px;
+} */
+
+.head-nav-links:hover {
+  color: #000;
+}
+
+.hamburger {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 18px;
+}
+.site-language{
+  outline: none;
+  border:none;
+  cursor: pointer;
+  color: #2cd2f8;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 3px;
+  border-radius:8px;
+}
+.site-language:hover{
+  background-color: #2cd3f863;
+}
+.login-btn-wrapper{
+
+}
+
+.login-btn{
+  color: #00bae5;
+  border: 2px solid #00bae5;
+  padding: 5px 10px ;
+  border-radius: 5px;
+}
+.login-btn:hover{
+  background-color: #00bae5;
+  color: #fff;
+}
+.register-btn{
+  color: #d6e500;
+  border: 2px solid #d6e500;
+  padding: 5px 10px ;
+  border-radius: 5px;
+}
+.register-btn:hover{
+  background-color: #d6e500;
+  color: #fff;
+}
+.connect-btn{
+  color: #19b47b;
+  border: 2px solid #19b47b;
+  padding: 5px 10px ;
+  border-radius: 5px;
+}
+.connect-btn:hover{
+  background-color: #19b47b;
+  color: #fff;
+}
+
+
+
+/* main */
+
+
+main{
+  background-color: #fff;
+  border: 1px solid #d1d3d4;
+  padding: 30px;
+  border-radius: 3px;
+  max-width: 1000px;
+  margin: 50px auto;
+  color: #333;
+  line-height: 1.7;
+}
+.partners {
+}
+.partners-title {
+  color: #00bae5;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 24px 0;
+}
+.partners-txt {
+}
+.with-subscribes-title {
+  color: #00bae5;
+  font-size: 21px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.about-diary {
+  display: flex;
+}
+.diary-img {
+}
+.diary-txt {
+  margin-left: 50px;
+  font-size: 15px;
+}
+.about-diary-title {
+}
+.about-diary-info {
+}
+.ad {
+  display: flex;
+  justify-content: space-between;
+}
+.ad-list {
+}
+.ad-item {
+}
+.insite-links {
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer-wrapper{
+  width: 100%;
+  background: linear-gradient(180deg, rgba(35,31,32,1) 69%, rgba(23,20,20,1) 70%);
+  height: 390px;
+}
+.site-footer{
+  /* padding-bottom: 40px; */
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+.site-footer{
+  width: 100%;
+}
+.footer-nav-list{
+  padding: 40px 30px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list-title{
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer-nav-links{
+  margin-top: 7px;
+  color: #939598;
+  font-size: 15px;
+}
+.footer-nav-links:hover{
+  color: #19b47b;
+}
+.social-media-wrapper{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.icons{
+  font-size: 24px;
+  color: rgb(198, 198, 198);
+}
+.icons:hover{
+  color:white;
+}
+.support-link{
+  color: #19b47b;
+  margin-bottom: 60px;
+}
+.support-link:hover{
+  text-decoration: underline;
+}
+.media-socialm{
+  display: none;
+}
+
+.sub-footer{
+  /* background-color: #171414; */
+  display: flex;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.owner{
+  color: #83888F;
+}
+
+@media only screen and (max-width:1300px) {
+  .site-navbar{
+    width: 80%;
+  }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:1100px) {
+   /* HEADER MEDIA */
+.site-navbar{
+display: none;
+}
+.hamburger{
+display: block;
+}
+
+
+}
+
+@media only screen and (max-width:730px) {
+.desktop-socialm{
+  display: none;
+}
+.media-socialm{
+  display: block;
+}
+.footer-nav-list{
+  flex-wrap: wrap;
+}
+
+
+
+}
+@media only screen and (max-width:655px) {
+  .footer-wrapper{
+    height: 500px;
+  }
+  .about-diary{
+    flex-direction: column;
+  }
+  .diary-img{
+    margin: 15px auto;
+  }
+  .diary-txt{
+    margin: auto;
+  }
+  .info-list{
+    margin: auto !important;
+  }
+  .ad{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:450px) {
+  .logo-img{
+    width: 130px;
+  }
+  .footer-wrapper{
+    height: 800px;
+  }
+  .footer-nav-list{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .social-media-wrapper{
+    width: 50%;
+  }
+  .footer-nav-list{
+    padding-top: 10px;
+  }
+  .footer-list-title{
+    margin-top: 30px;
+
+  }
+  .sub-footer{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  /* // HEADER MEDIA */
+
+.site-header{
+margin: 32px 0 40px 0;
+}
+
+.fa-bars{
+font-size: 16px;
+}
+
+
+}
